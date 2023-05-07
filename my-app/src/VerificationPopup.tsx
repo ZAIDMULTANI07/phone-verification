@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import './VerificationPopup.css';
 
 interface VerificationPopupProps {
   onVerificationComplete: (otp: string) => void;
